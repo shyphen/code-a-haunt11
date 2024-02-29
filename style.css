@@ -1,0 +1,129 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f0f0f0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-image: url("bgg.jpg");
+    background-attachment:fixed;
+  }
+  
+  
+  
+  img {
+    width: 130%;
+  }
+  .discover,
+  .GENRES {
+    color: white;
+    margin-left: 15%;
+    font-size: 50px;
+  }
+  .discover{
+    margin-top: 600px;
+    align-items: center;
+    opacity: 90%;
+  }
+  .GENRES{
+    margin-top: 1200px;
+  }
+  
+  .flex1 {
+    width: 200px;
+    height: 150px;
+    flex-wrap: wrap;
+    border: 2px black solid;
+    margin-left: 200px;
+  }
+
+  .container {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid #d1d1d1;
+    border-radius: 20px;
+    margin-left: 200px;
+    background-color: #d1d1d1;
+  }
+  .container:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgb(98, 93, 93);
+}
+  .container img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+  }
+  
+
+  .GENRES {
+    margin-top: 500px;
+    font-size: 15px;
+  }
+  
+  .border {
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 400px;
+    height: 270px;
+    padding: 40px;
+    flex-wrap: wrap;
+    border: 2px solid #d1d1d1;
+    border-radius: 40px;
+    background-color: #d1d1d1;
+    opacity: 80%;
+    margin: 10px;
+  
+  }
+  .flex:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgb(98, 93, 93);
+    opacity: 100%;
+}
+  .flex img {
+    width: 100%;
+  }
+  #a{
+    background-image: url("festival.jpg");
+  }
+  #b{
+    background-image: url("history.jpg");
+  }
+  #c{
+    background-image: url("dancd.jpg");
+  }
+  #d{
+    background-image: url("dress\ .jpeg");
+  }
+  #e{
+    background-image: url("art.webp");
+  }
+  #f{
+    background-image: url("sprituality1.jpg");
+  }
+  #g{
+    background-image: url(food.jpg);
+  }
+  #h{
+    background-image: url("mm.webp");
+  }
+
+  .border p {
+      font-size: 40px;
+      font-weight: bold;
+      color: white;
+      text-shadow: black;
+      
+  }
